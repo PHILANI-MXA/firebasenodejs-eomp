@@ -64,8 +64,8 @@
     <p class="card-text">R{{product.price}}</p>
     </div>
     <div class="row">
-    <ul class="text-decoration-none">
-    <li class="text-decoration-none">
+    <ul class="text-decoration-none list-unstyled">
+    <li class="text-decoration-none list-unstyled">
     <button class="cart list-inline-item" @click="addToCart">add to cart</button>
     <router-link :to="{name:'SingleProduct',params:{id:product.product_id}}">
     <button class="list-inline-item">View</button></router-link>
@@ -73,8 +73,8 @@
     </ul>
     </div>
     <div class="row mb-0">
-    <ul>
-    <li>
+    <ul class="list-unstyled">
+    <li class="list-unstyled">
     <button type="button" class="btn btn-danger lh-2 list-inline-item mb-0">Delete</button>
     <button type="button" class="btn btn-primary lh-2 list-inline-item mb-0">Add</button>
     <button type="button" class="btn btn-secondary lh-2 list-inline-item mb-0">Edit</button>
