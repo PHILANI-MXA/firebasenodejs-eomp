@@ -105,21 +105,21 @@ export default createStore({
         router.push({ name: 'admin' });
       }
     }
-   /* addTocart: async (context, payload) => {
-      fetch(grpjpURL + `users/${context.state.user.id}/cart`, {
-        method: 'POST',
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8'
-        },
-        body: JSON.stringify(payload)
-      }).then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          setTimeout(() => {
-            router.push('/cart'), 5000
-          });
-        });
-    }*/
+    // addTocart: async (context, payload) => {
+    //   fetch(grpjpURL + `users/${context.state.user.id}/cart`, {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-type': 'application/json; charset=UTF-8'
+    //     },
+    //     body: JSON.stringify(payload)
+    //   }).then((res) => res.json())
+    //     .then((data) => {
+    //       console.log(data);
+    //       setTimeout(() => {
+    //         router.push('/cart'), 5000
+    //       });
+    //     });
+    // }
   },
   modules: {
   }
